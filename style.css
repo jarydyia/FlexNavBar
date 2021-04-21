@@ -1,0 +1,43 @@
+*{
+    font-family: sans-serif;
+}
+h1 {
+color: white;
+}
+
+.nav{
+    display: flex;
+    background-color: rgb(61, 57, 57);
+    width: 950px;
+    padding-left: 15px;
+    margin: auto
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 40%;
+}
+
+li {
+    margin: 10px;
+    list-style-type: none;
+}
+
+.link1{
+    color: rgb(179, 173, 173);
+    text-decoration: none;
+}
+
+.link2{
+    color: white;
+    text-decoration: none;
+}
+
+.link3{
+    color: white;
+    background:rgb(70, 140, 206);
+    box-shadow: 2px 5px black; 
+
+}
